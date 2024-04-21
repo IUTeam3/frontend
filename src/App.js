@@ -22,7 +22,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import FinishAppointment from "./pages/FinishAppointment/FinishAppointment";
 
 export default function App() {
-    return ( 
+    return (
         <Router basename="/frontend">
             <AuthProvider>
                 
