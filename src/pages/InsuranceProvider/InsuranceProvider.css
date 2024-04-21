@@ -1,0 +1,90 @@
+.insurance-page .insurance-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 75px 10px;
+}
+
+.insurance-page .insurance-welcome {
+    margin: 20px 0 16px 0px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.insurance-page h2 {
+    font-size: 21px;
+    margin: 10px 0;
+}
+
+.insurance-page .browse-insurance-plans,
+.insurance-page .find-an-insurance {
+    margin: 9px;
+    padding: 15px 29px;
+    border-radius: 10px;
+}
+
+.covid-19-precautions {
+    background-color: rgb(240, 145, 134);
+}
+
+.insurance-page .browse-insurance-plans,
+.insurance-page .find-an-insurance {
+    background-color: rgb(113, 176, 227);
+}
+
+.insurance-page .insurance-services {
+    display: flex;
+}
+
+.insurance-page hr {
+    border: 0.5px solid black;
+}
+
+.insurance-page .insurance-services button {
+    background-color: brown;
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.insurance-page .insurance-services button:hover {
+    background-color: rgb(111, 25, 25);
+}
+
+.insurance-page .header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#myTable th,
+#myTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#myTable th {
+    background-color: rgb(113, 176, 227); /* Blue background color */
+    color: white; /* White text color */
+    font-weight: bold; /* Bold font weight */
+}
+
+#myTable td:first-child,
+#myTable th:first-child {
+    width: 25%; /* Adjust width as needed */
+}
+
+#myTable td:last-child {
+    width: 50%; /* Adjust width as needed */
+    padding-right: 20px; /* Adjust padding-right to reduce whitespace */
+}
